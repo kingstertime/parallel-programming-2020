@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kirill/CLionProjects/parallel-programming-2020/Lesson2/task7.cpp
+
+/Users/kirill/CLionProjects/parallel-programming-2020/Lesson2/task8.cpp
+stdio.h
+-
+omp.h
+-
+time.h
+/Users/kirill/CLionProjects/parallel-programming-2020/Lesson2/time.h
+stdlib.h
+/Users/kirill/CLionProjects/parallel-programming-2020/Lesson2/stdlib.h
+

@@ -1,0 +1,3 @@
+/Users/kirill/CLionProjects/parallel-programming-2020/Lesson2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kirill/CLionProjects/parallel-programming-2020/Lesson2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kirill/CLionProjects/parallel-programming-2020/Lesson2/cmake-build-debug/CMakeFiles/Lesson2.dir

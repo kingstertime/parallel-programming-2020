@@ -1,0 +1,1 @@
+/usr/local/Cellar/gcc/10.2.0/bin/g++-10   -fopenmp -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Lesson2.dir/task5.cpp.o CMakeFiles/Lesson2.dir/task6.cpp.o CMakeFiles/Lesson2.dir/task7.cpp.o CMakeFiles/Lesson2.dir/task8.cpp.o  -o Lesson2 
