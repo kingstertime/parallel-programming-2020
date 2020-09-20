@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kirill/CLionProjects/parallel-programming-2020/Lesson3/task11.cpp
+
+/Users/kirill/CLionProjects/parallel-programming-2020/Lesson3/task12.cpp
+stdio.h
+-
+omp.h
+-
+unistd.h
+-
+
