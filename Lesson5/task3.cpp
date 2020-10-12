@@ -2,6 +2,7 @@
 #include<iostream>
 
 int main(int argc, char** argv) {
+	
 	int rank, size;
 	const int N = 10;
 	int a[N];
@@ -18,7 +19,7 @@ int main(int argc, char** argv) {
 	if (rank == 1) {
 		MPI_Recv(&a, N, MPI_INT, 0,
 			MPI_ANY_TAG, MPI_COMM_WORLD, MPI_STATUSES_IGNORE);
-		printf("Got\n");
+		printf("processes: %d, Got\n", rank);
 		for (int i = 0; i < N; i++) {
 			printf("%d ", a[i]);
 		}

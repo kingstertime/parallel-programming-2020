@@ -3,7 +3,9 @@
 
 int main(int argc, char **argv)
 {
+	int rank;
 	MPI_Init(&argc, &argv);
-	printf("Hello, World! \n");
+	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+	printf("processes: %d, Hello, World! \n", rank);
 	MPI_Finalize();
 }
