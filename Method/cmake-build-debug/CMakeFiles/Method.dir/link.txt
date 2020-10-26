@@ -1,0 +1,1 @@
+/usr/local/Cellar/gcc/10.2.0/bin/g++-10   -fopenmp -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Method.dir/method.cpp.o  -o Method 

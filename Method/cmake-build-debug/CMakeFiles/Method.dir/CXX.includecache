@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kirill/CLionProjects/parallel-programming-2020/Method/method.cpp
+iostream
+-
+omp.h
+-
+string
+-
+cstdlib
+-
+stdio.h
+-
+math.h
+-
+
